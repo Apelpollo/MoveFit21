@@ -32,7 +32,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="32dp"
                 android:background="@color/ETBG"
-                android:drawableLeft="@android:drawable/sym_action_email"
+                android:drawableStart="@android:drawable/sym_action_email"
                 android:drawablePadding="8dp"
                 android:ems="10"
                 android:hint="Email"
@@ -41,8 +41,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
+                app:layout_constraintTop_toTopOf="parent"
+                android:autofillHints="" />
             <EditText
                 android:id="@+id/editTextTextPassword"
                 android:layout_width="0dp"
@@ -67,18 +67,18 @@
                 android:layout_marginEnd="24dp"
                 android:text="forgot password"
                 android:textColor="@color/AT"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnsign1"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:text="sign in"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
