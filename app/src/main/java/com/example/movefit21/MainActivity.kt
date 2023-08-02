@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnn: Button = findViewById(R.id.links)
         btnn.setOnClickListener{
-            val intent = Intent(this, signup::class.java)
+            val intent = Intent(this, Signup::class.java)
             startActivity(intent)
         }
             }
