@@ -13,6 +13,21 @@
         android:theme="@style/Theme.MoveFit21"
         tools:targetApi="31">
         <activity
+            android:name=".SideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PushupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CurpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SquatActivity2"
+            android:exported="false" />
+        <activity
             android:name=".Signup"
             android:exported="false" />
         <activity

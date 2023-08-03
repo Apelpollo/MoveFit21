@@ -10,8 +10,9 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
-        android:layout_height="54dp"
+        android:layout_height="50dp"
         android:background="#03A9F4">
 
         <TextView
@@ -30,18 +31,19 @@
     <FrameLayout
     android:id="@+id/frameContainer"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+    android:layout_height="match_parent">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navmenu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:layout_marginTop="54dp"
-        app:menu="@menu/navegation_menu"
-        android:elevation="2dp"
-        android:background="@color/ETB"
-        >
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="50dp"
+            android:background="@color/ETB"
+            android:elevation="2dp"
+            app:menu="@menu/navegation_menu">
 
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </FrameLayout>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

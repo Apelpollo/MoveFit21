@@ -17,8 +17,11 @@ class Signup : AppCompatActivity() {
         val videoPath = "android.resource://" + packageName + "/" + R.raw.signupv
         val videoUri = Uri.parse(videoPath)
 
-        mediaController.setAnchorView(videoView)
-        videoView.setMediaController(mediaController)
+        videoView.setOnPreparedListener { mp ->
+            mp.isLooping = true
+            videoView.start()
+        }
+
 
 
         videoView.setVideoURI(videoUri)

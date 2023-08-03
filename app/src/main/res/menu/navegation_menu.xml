@@ -4,7 +4,7 @@
 
 
     <item
-    android:id="@+id/itemFragment2"
+    android:id="@+id/itemFragment3"
         android:icon="@drawable/fitness"
         android:title="@string/w"
 
@@ -18,9 +18,9 @@
 
         />
     <item
-        android:id="@+id/itemFragment3"
-        android:icon="@drawable/fragment1"
-        android:title="f3"
+        android:id="@+id/itemFragment2"
+        android:icon="@drawable/shopping"
+        android:title="@string/s"
 
 
         />
