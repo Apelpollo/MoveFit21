@@ -47,10 +47,10 @@ class FFragment : Fragment() {
 
     private fun clickListener() {
         val imagesquat = requireView().findViewById<ImageView>(R.id.senta)
-        val imagesitups = requireView().findViewById<ImageView>(R.id.ads)
-        val imagecurp = requireView().findViewById<ImageView>(R.id.pesa)
-        val imagepushups = requireView().findViewById<ImageView>(R.id.laga)
-        val imageside = requireView().findViewById<ImageView>(R.id.lata)
+        val imagesitups = requireView().findViewById<ImageView>(R.id.laga)
+        val imagecurp = requireView().findViewById<ImageView>(R.id.lata)
+        val imagepushups = requireView().findViewById<ImageView>(R.id.ads)
+        val imageside = requireView().findViewById<ImageView>(R.id.curp)
 
         imagesquat.setOnClickListener {
             openSquatActivity()
@@ -59,13 +59,13 @@ class FFragment : Fragment() {
             openSitupsActivity()
         }
         imagecurp.setOnClickListener {
-            openSitupsActivity()
+            openCurpActivity()
         }
         imagepushups.setOnClickListener {
-            openSitupsActivity()
+            openPushupsActivity()
         }
         imageside.setOnClickListener {
-            openSitupsActivity()
+            openSideActivity()
         }
     }
 

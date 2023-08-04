@@ -22,13 +22,10 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="HardcodedText" />
+            app:layout_constraintTop_toTopOf="parent"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
     <GridLayout
         android:layout_width="match_parent"
@@ -49,19 +46,20 @@
             android:elevation="8dp"
             android:padding="16dp">
 
-           <RelativeLayout
-               android:layout_width="match_parent"
-               android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-               <ImageView
-                   android:id="@+id/senta"
-                   android:layout_width="350dp"
-                   android:layout_height="250dp"
-                   android:layout_centerInParent="true"
-                   android:src="@raw/senta">
+                <ImageView
+                    android:id="@+id/senta"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:src="@raw/senta">
 
-               </ImageView>
-           </RelativeLayout>
+
+                </ImageView>
+            </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -81,11 +79,14 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/laga"
+                    android:id="@+id/lata"
                     android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@raw/laga">
+                    android:layout_marginBottom="50dp"
+                    android:src="@raw/pesa"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText">
 
                 </ImageView>
             </RelativeLayout>
@@ -108,11 +109,11 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/lata"
+                    android:id="@+id/laga"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
-                    android:src="@raw/lata">
+                    android:src="@raw/ads">
 
                 </ImageView>
             </RelativeLayout>
@@ -139,7 +140,7 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
-                    android:src="@raw/pesa">
+                    android:src="@raw/laga">
 
                 </ImageView>
             </RelativeLayout>
@@ -162,12 +163,11 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/pesa"
+                    android:id="@+id/curp"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
-                    android:src="@raw/pesa"
-                    >
+                    android:src="@raw/lata">
 
                 </ImageView>
             </RelativeLayout>
